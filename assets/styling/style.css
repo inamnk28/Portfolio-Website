@@ -33,7 +33,7 @@ html {
 }
 .hero {
     height: 100vh;
-    background-image: url(../images/myportfolio\ background.jpg);
+    background-image: url(https://i.postimg.cc/x8r7KF2K/myportfolio-background.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
@@ -130,9 +130,73 @@ html {
     -webkit-text-stroke: 1px black;
     color: transparent;
     text-shadow: 0 0 1rem black;
+    
 }
-
-
+.fab {
+    color: #86e673;
+    height: 30px;
+}
+.fab:hover {
+    color: aqua;
+    text-shadow: 0 0 1rem #86e673;
+}
+.text-uppercase {
+    color: aqua;
+}
+.text-uppercase:hover {
+    color:#86e673;
+    text-shadow: 0 0 1rem aqua;
+}
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+  input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+    box-shadow: 0 0 1rem #86e673;
+  }
+  
+  .contact {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    width: 500px;
+    margin: auto;
+  }
+  #testimonial {
+    gap: 20%;
+ }
+.space {
+    justify-content: space-evenly;
+}
+.car {
+    margin: auto;
+    height: 30rem;
+    width: 40rem;
+}
+#gap {
+    justify-content: center;
+    gap: 10px;
+}
+::-webkit-scrollbar {
+    display: none;
+}
 
 
 
