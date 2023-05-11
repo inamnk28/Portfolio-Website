@@ -203,3 +203,8 @@ input[type=text], select, textarea {
 
 
 
+@media only screen and (max-width: 520px) {
+    .contact {
+        width: 98%;
+    }
+}
