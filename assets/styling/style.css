@@ -217,3 +217,7 @@ input[type=text], select, textarea {
         width: 98%;
     }
 }
+.navbar-toggler-icon:hover {
+    color: aqua;
+    box-shadow: 0 0 1rem #86e673;
+}
