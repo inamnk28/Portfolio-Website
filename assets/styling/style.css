@@ -16,12 +16,20 @@ html {
     padding: 22px;
 }
 .navbar-light .navbar-nav .nav-link {
-    color: black;
     padding-left: 21px;
     
 }
+.container-fluid .navbar-brand:hover {
+    color: aqua;
+    text-shadow: 0 0 1rem #86e673;
+}
 
-.navbar-light .navbar-nav .nav-link:hover {
+.sticky-top {
+    position: sticky !important;
+    top: 0 !important;
+}
+
+.nav-item .nav-link:hover {
     color: aqua;
     text-shadow: 0 0 1rem #86e673;
 }
